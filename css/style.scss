@@ -1,0 +1,65 @@
+.header{
+  background-color: #1F1F1F;
+}
+.active{
+  color: white;
+}
+.nav-link{
+  color: white!important;
+}
+.navbar-collapse{
+  flex-grow: 0!important;
+
+}
+.navbar{
+  max-width: 1105px;
+  margin: auto;
+}
+.navbar-brand{
+}
+.header_top {
+  font-family: 'PT Sans', sans-serif;
+  background: #000;
+
+  .top_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 14px 0px;
+    .header_auth {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 12px;
+      line-height: 16px;
+      color: #969696;
+      text-align: right;
+      a{
+        text-decoration: none;
+        color:#969696 ;
+      }
+    }
+
+  }
+  .header_contact {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+  }
+
+}
+.container_top{
+  max-width: 1130px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
